@@ -1,0 +1,37 @@
+Reading exercises for 02-08
+
+Addison Gould
+
+
+
+4.4
+
+relevant inputs: array arr (runtime will depend on number of elements n)
+
+
+2 operations to count (counting variable assignments):
+int ret = arr[0];
+ret = arr[i];
+
+Best case: numbers in arr are in descending order
+T(n) = 1
+
+Worst case: numbers in arr are in ascending order
+T(n) = n+1
+
+Average case: reassignment of ret happens every other element of arr
+T(n) = n/2 + 1
+
+4.5
+
+bounds of T(n) = 1:
+upper bound: g(n) = 2;
+lower bound: f(n) = 0;
+
+bounds of T(n) = n+1:
+upper bound: g(n) = n + 2;
+lower bound: f(n) = n;
+
+bounds of T(n) = n/2 + 1:
+upper bound: g(n) = n/2 + 2;
+lower bound: f(n) = n/2;
