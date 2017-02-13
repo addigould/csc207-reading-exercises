@@ -1,0 +1,17 @@
+Reading exercise for 02-13 by Addison Gould
+
+1.
+
+Stack           Heap
+_____           _____
+ 
+—main
+args [ u-] ———> []
+c []   ——————> Counter value [0]
+
+—doWork
+c []   ——————> Counter value [0]
+
+
+2.
+value of c at point b is 2.
