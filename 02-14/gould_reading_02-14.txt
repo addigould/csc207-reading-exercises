@@ -1,0 +1,9 @@
+Addison Gould reading exercise for 02-14
+
+1. Entering the loop: when we enter the loop we haven’t compared anything yet. Since we will compare the first element in the array to the ret value of the zeroth element in the array, we will start out i at 1.
+
+This function max takes an array of ints and returns an int
+
+2. end of iteration of loop: at the end of each loop, ret should be set to the value of one of the elements in the array, the max value in the array from items 0-i. 
+
+3. after execution: After execution, ret should be set to the integer in the array with the highest value.
