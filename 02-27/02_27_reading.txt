@@ -1,0 +1,11 @@
+Reading exercise for 02-27
+Addison Gould
+CSC207
+
+1. Does the line of code type check? Yes, nothing is static.
+
+2. If so, what is the output?
+C.foo
+C.bar
+
+I only somewhat understand the safe/rejected happening but I’m not sure if it happens here. 
