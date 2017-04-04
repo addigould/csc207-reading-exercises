@@ -1,0 +1,10 @@
+public void printInorder() {
+   if (node.left == NULL && node.right == NULL){
+     System.out.println(node.value);
+   }
+   else {
+    node.left.printInorder();
+    System.out.println(node.value);
+    node.right.printInorder();
+   }
+}
