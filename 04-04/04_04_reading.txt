@@ -1,3 +1,5 @@
+
+//MEIN
 public void printInorder() {
    if (node.left == NULL && node.right == NULL){
      System.out.println(node.value);
@@ -8,3 +10,49 @@ public void printInorder() {
     node.right.printInorder();
    }
 }
+
+
+
+
+//PM’s version
+
+public void inorderPrintHelper(Node<T> cur) {
+    if (left != NULL) {left.inorderPrint();}
+    System.out.println(this.value);
+    if (right != NULL) {this.right.inorderPrint();}
+  
+}
+
+public void inorderPrint() {
+  inorderPrint(root);}
+
+
+//SIZE
+
+private <T> int sizeHelper(Node<T> cur){
+   if (cur == NULL){
+      return 0;
+    }
+   else {
+     1 + sizeHelper(cur.left) + sizeHelper(cur.right);
+  }
+}
+
+public int size(){
+   sizeHelper(root);
+}
+
+
+//ADD
+
+public void add(T v) {
+  root = add(root, v);
+}
+
+public static <T extends Comparable<T>> Node<T addHelper(Note<T> cur, T v) {
+  if (cur == NULL) {
+    Node<T> ret = new Node<>(v, null, null);
+    
+
+}
+

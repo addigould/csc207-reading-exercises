@@ -1,0 +1,31 @@
+reading exercise for 4/5/2017
+Addison Gould
+
+Calls to Add
+
+a.
+5
+2
+1
+4
+8
+6
+9
+
+
+b.
+4
+2
+9
+6
+5
+15
+20
+
+
+c.
+9
+6
+5
+2
+1
